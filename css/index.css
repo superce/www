@@ -1,0 +1,545 @@
+@media screen and (max-width:415px){
+  *{
+    box-sizing: border-box;
+  }
+}
+.wrap{
+  width: 100%;
+}
+.header{
+  width: 100%;
+}
+.header .top{
+  width: 1000px;
+  margin: 0 auto;
+}
+@media screen and (max-width:415px){
+  .header .top{
+    width: 70%;
+  }
+}
+.header .top .logo img{
+  width: 250px;
+  height: 70px;
+}
+.header .banner{
+  width: 100%;
+}
+.header .banner img{
+  width: 100%;
+}
+/*主体*/
+.main{
+  width: 100%;
+  background:#e5e6eb;
+  padding-top: 50px;
+}
+@media screen and (max-width:415px){
+  .main {
+    padding-top: 10px;
+  }
+}
+.mainbox {
+  width: 1200px;
+  border: 1px solid #DBDBDB;
+  margin: 0 auto;
+  background: #fff;
+}
+@media screen and (max-width:415px){
+  .mainbox {
+    width: 90%;
+  }
+}
+/*游戏介绍*/
+.mainbox .content1 .title{
+  overflow: hidden;
+  width: 100%;
+}
+.mainbox .title li{
+  margin-left: 1px;
+  float: left;
+}
+@media screen and (max-width:415px){
+  .mainbox .title li{
+    width: 100%;
+  }
+}
+.mainbox .title li a{
+  display: block;
+  width: 599px;
+  text-align: center;
+  font-size: 25px;
+  color:#B4BAD0;
+  border-top: 5px solid #3589DD;
+  cursor: pointer;
+}
+@media screen and (max-width:415px){
+  .mainbox .title li a{
+    width: 100%;
+  }
+  .mainbox .title li .media-a{
+    display: none;
+  }
+}
+.mainbox .title ul li>.on{
+  background-color:#323235;
+  color:#fff;
+  border-top: 0;
+}
+.mainbox .content1 .titlebox{
+  width: 1100px;
+  margin: 30px auto 0;
+  overflow: hidden;
+}
+@media screen and (max-width:415px){
+  .mainbox .content1 .titlebox{
+    width: 90%;
+  }
+}
+.mainbox .content1 .titlebox .gameInt{
+  width: 1100px;
+}
+@media screen and (max-width:415px){
+  .mainbox .content1 .titlebox .gameInt{
+    width: 90%;
+  }
+}
+.mainbox .content1 .active{
+  display: none;
+}
+/*游戏介绍内容*/
+.mainbox .titlebox .gameInt .title{
+  margin-top: 35px;
+}
+@media screen and (max-width:415px){
+  .mainbox .titlebox .gameInt .title{
+    margin-top: 0;
+  }
+}
+.mainbox .titlebox .gameInt .title a>img{
+  float: left;
+  width: 35px;height: 35px;
+}
+.mainbox .titlebox .gameInt .title a>h1{
+  margin-left: 50px;
+  line-height: 35px;
+  color:#616161;
+  font-size: 25px;
+}
+@media screen and (max-width:415px){
+  .mainbox .titlebox .gameInt .title a>img{
+    width: 25px;height: 25px;
+  }
+  .mainbox .titlebox .gameInt .title a>h1{
+    font-size: 1.5em;
+    line-height: 25px;
+    margin-left: 35px;
+  }
+}
+.mainbox .titlebox .gameInt .game_d{
+  margin-top: 20px;
+  width: 1000px;
+}
+@media screen and (max-width:415px){
+  .mainbox .titlebox .gameInt .game_d{
+    width: 80%;
+    margin-left: 10px;
+  }
+}
+.mainbox .titlebox .gameInt .gameT{
+  margin-top: 50px;
+  width: 1000px;
+}
+@media screen and (max-width:415px){
+  .mainbox .titlebox .gameInt .gameT{
+    width:100%;
+    margin-top: 10px;
+  }
+}
+.mainbox .titlebox .gameInt .game_d>.left{
+  width: 400px;
+  height: 255px;
+  float: left;
+  margin-left: 50px;
+  border: 3px solid #e5e6eb;
+}
+.mainbox .titlebox .gameInt .game_d .video{
+  width: 420px;
+  height: 300px;
+}
+.mainbox .titlebox .gameInt .game_d>.left img{
+  width: 100%;
+  height: 255px;
+}
+/*视频*/
+ .mainbox .titlebox .gameInt .game_d .iframe2{
+  display: none;
+}
+@media screen and (max-width:415px){
+  .mainbox .titlebox .gameInt .game_d .iframe2{
+    display: block;
+  }
+  .mainbox .titlebox .gameInt .game_d .iframe1{
+    display: none;
+  }
+}
+@media screen and (max-width:415px){
+  .mainbox .titlebox .gameInt .game_d>.left{
+    width: 95%;
+    height: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+.mainbox .titlebox .gameInt .game_d>.right{
+  float: right;
+  width: 500px;
+}
+.mainbox .titlebox .gameInt .game_d>.right h1{
+  font-size: 30px;
+  color:#616161;
+}
+.mainbox .titlebox .gameInt .game_d>.right p{
+  font-size: 16px;
+  color:#707070;
+  line-height: 30px;
+}
+@media screen and (max-width:415px){
+  .mainbox .titlebox .gameInt .game_d>.right{
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .mainbox .titlebox .gameInt .game_d>.right h1{
+    display: none;
+  }
+  .mainbox .titlebox .gameInt .game_d>.right p{
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+/*游戏特色*/
+.mainbox .titlebox .gameInt>.game{
+  height: 375px;
+}
+.mainbox .titlebox .g-features .gameNav{
+  overflow: hidden;
+  height: 100px;
+}
+.mainbox .titlebox .g-features .gameNav li{
+  float: left;
+  position: relative;
+}
+.ab:after{
+  width: 0;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+  position: absolute;
+  content: '';
+  border-width: 9px;
+  border-style: solid dashed dashed;
+  border-color: #2784E0 transparent transparent;
+  left: 99px;
+  bottom: -17px;
+}
+.mainbox .titlebox .g-features .gameNav a{
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 0 58px;
+  /*color:#c1c1c1;*/
+  text-align: center;
+  line-height: 30px;
+  font-family: "Microsoft YaHei";
+  border: 2px solid #C1C1C1;
+  border-radius: 7px;
+}
+#on1{
+  background-color: #2784E0;
+  color:#fff;
+  border: 0;
+}
+.mainbox .g-features .line{
+  width: 900px;
+  height: 4px;
+  margin: 0 auto;
+  background-color: #c1c1c1;
+  margin-top: 65px;
+}
+.i{
+  position: absolute;
+  width: 40px;height: 40px;
+  background: url(http://game.gtimg.cn/images/yxzj/web201605/page/selecticon.png) no-repeat;
+  background-position: -44px 0;
+  cursor: pointer;
+}
+.i-1{
+  left:87px;
+  top:45px;
+}
+.i-2{
+  background-position: 0 0;
+}
+.active1{
+  display: none;
+}
+/*公共样式*/
+.public{
+  width: 1100px;margin: 40px auto 0;
+}
+.public .title{
+  overflow: hidden;
+}
+.public .title img{
+  width: 35px;height: 35px;
+  float: left;
+}
+.public .title h1{
+  line-height: 35px;
+  color:#616161;
+  margin-left: 50px;
+  font-size: 25px;
+}
+@media screen and (max-width:415px){
+  .public{
+    width: 90%;
+    margin: 20px auto 0;
+  }
+  .public .title img{
+    width: 25px;height: 25px;
+  }
+  .public .title h1{
+    line-height: 30px;
+    margin-left: 35px;
+    font-size: 1.5em;
+  }
+}
+/*报名*/
+.signUp .picSign{
+  width: 1000px;
+  margin: 20px auto 0;
+}
+.signUp .title h1{
+  color:#A71818;
+}
+.signUp .picSign img{
+  width: 100%;
+}
+.signUp .picSign .phone{
+  display: none;
+}
+.signUp .picSign .titleR h1{
+  font-size: 20px;
+  color:#A71818;
+}
+.signUp .picSign .titleR p{
+  line-height: 20px;
+  color:#505050;
+  font-size: 14px;
+}
+@media screen and (max-width:415px){
+  .signUp .picSign{
+    width: 90%;
+  }
+  .signUp .picSign .pc{
+    display: none;
+  }
+  .signUp .picSign .phone{
+    display: block;
+  }
+  .signUp .picSign .titleR h1{
+    font-size: 1.2em;
+  }
+  .signUp .picSign .titleR p{
+    line-height: 15px;
+    font-size: 0.8em;
+  }
+}
+/*游戏规则*/
+.gameRules .rules>p{
+  width: 1000px;
+  margin: 0 auto;
+  color:#616161;
+  line-height: 30px;
+  font-size: 18px;
+}
+.gameRules .rules>p span{
+  color:#A71818;
+  font-weight: 800;
+  font-family: 'Arial';
+  font-style: oblique;
+}
+@media screen and (max-width:415px){
+  .gameRules .rules>p{
+    width: 90%;
+    line-height: 18px;
+    font-size: 12px;
+  }
+}
+/*游戏奖励*/
+.reward .rmb{
+  width: 1000px;
+  margin: 20px auto 0;
+}
+.reward .rmb p{
+  text-align: center;
+  font-size: 20px;
+  color:#616161;
+  font-weight: 800;
+  font-family: "Arial";
+}
+.reward .rmb img{
+  width: 1000px;
+  margin-top: 20px;
+}
+.reward .king{
+  width: 1000px;
+  margin: 30px auto;
+}
+.reward .king img{
+  width: 100%;
+}
+@media screen and (max-width:415px){
+  .reward .rmb{
+    width: 90%;
+  }
+  .reward .rmb p{
+    font-size: 1.2em;
+  }
+  .reward .rmb img{
+    width: 100%;
+  }
+  .reward .king{
+    width: 90%;
+  }
+  .reward .king img{
+    width: 100%;
+  }
+}
+/*赛事安排*/
+.match .matPic{
+  width: 1000px;
+  margin: 0 auto;
+}
+.match .matPic>img{
+  width: 100%;
+}
+@media screen and (max-width:415px){
+  .match .matPic{
+    width: 90%;
+  }
+}
+/*活动亮点*/
+.activity .title{
+  overflow: hidden;
+}
+.activity .activityM{
+  margin-top: 30px;
+  overflow: hidden;
+}
+.activity .activityM .actM{
+  width: 170px;
+  text-align: center;
+  float: left;
+  /*padding-left: 80px;*/
+
+}
+@media screen and (min-width:415px){
+  .activity .activityM .actM{
+    padding: 0 50px;
+  }
+}
+.activity .activityM .actM h1{
+  color:#404040;
+  font-size: 25px;
+  font-family: "Microsoft YaHei";
+}
+.activity .activityM .actM p{
+  color:#606060;
+  font-family: "Microsoft YaHei";
+}
+@media screen and (max-width:415px){
+  .activity{
+    width: 90%;
+  }
+  .activityM{
+    width: 100%;
+    display: flex;
+    border: 1px solid #e5e6eb;
+  }
+  .activityM .actM{
+    flex-grow: 1;
+    width: 50%;
+    float: none;
+  }
+  .activity .activityM .actM h1{
+    font-size:1em;
+  }
+  .activity .activityM .actM p{
+    font-size: 0.5em;
+  }
+  .activity .activityM .actM img{
+    width: 100%;
+  }
+}
+/*cosplay*/
+.cosplayteam .title img{
+  width: 45px;height: 35px;
+}
+.cosplayteam .cosplay{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.cosplayteam .cosplay img{
+  width: 183px;
+  height: 270px;
+}
+@media screen and (max-width:415px){
+  .cosplayteam{
+    width: 90%;
+  }
+  .cosplayteam .cosplay{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .cosplayteam .title img{
+    width: 35px;height: 25px;
+  }
+  .cosplayteam .cosplay img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+}
+/*底部版权*/
+.footer{
+  width: 100%;
+  padding-top: 20px;
+  background: #e5e6eb;
+}
+.tcopyright {
+  width:70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size:12px;
+  line-height:28px;
+  color:#404040;
+}
+@media screen and (max-width:415px){
+  .tcopyright{
+    line-height: 20px;
+  }
+}
+.tcopyright .en{
+  font-family:Arial;
+}
+.tcopyright a{
+  color:#404040;
+  text-decoration: none;
+}
+.tcopyright a:hover{
+  color:#616161;
+  text-decoration: underline;
+}
